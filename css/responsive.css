@@ -68,4 +68,11 @@
   .banner {
     display: none;
   }
+
+  .pres-img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
 }
