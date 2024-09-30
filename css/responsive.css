@@ -6,6 +6,8 @@
   }
 }
 
+/* Mobile */
+
 @media (max-width: 768px) {
   .container-fluid {
     max-width: 100%;
