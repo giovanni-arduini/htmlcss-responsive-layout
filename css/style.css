@@ -93,8 +93,14 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.card {
+  background-color: white;
+}
+
 .card img {
-  max-width: 100%;
+  width: 100%;
+  /* object-fit: contain;
+  object-position: center; */
 }
 
 /* Hero-social */

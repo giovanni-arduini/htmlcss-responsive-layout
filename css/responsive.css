@@ -8,6 +8,23 @@
   .container {
     max-width: 100%;
   }
+
+  .card {
+    flex-wrap: wrap;
+  }
+  .card .col-8 {
+    width: 100%;
+  }
+  .card .col-4 {
+    width: 100%;
+  }
+  .hero-social .btn {
+    padding: 0.4rem 3rem;
+  }
+
+  .hero-social .btn span {
+    display: none;
+  }
 }
 
 /* Mobile */
@@ -18,5 +35,14 @@
   }
   .nav-title {
     text-align: center;
+  }
+  .extended-title {
+    display: none;
+  }
+  .hero-social .btn {
+    padding: 0.4rem 0.8rem;
+  }
+  .banner {
+    display: none;
   }
 }
