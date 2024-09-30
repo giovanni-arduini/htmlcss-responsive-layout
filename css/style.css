@@ -141,14 +141,26 @@ body {
 
 .banner {
   max-width: 100%;
+  margin-bottom: 2rem;
 }
 
-/* line */
+/* Presentation */
+.pres-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 .line {
   background-color: #ff9614;
   border: 1px solid #ff9614;
   height: 0.2rem;
   width: 6rem;
+  margin-bottom: 2rem;
+}
+
+.pres-img {
+  float: left;
 }
 /* UTILITIES */
 
