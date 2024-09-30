@@ -53,8 +53,6 @@ body {
 
 .col-4 {
   width: calc(100% / 3);
-  display: flex;
-  flex-wrap: wrap;
 }
 /* Navbar */
 
@@ -101,6 +99,24 @@ body {
   width: 100%;
   /* object-fit: contain;
   object-position: center; */
+}
+
+.card .col-4 {
+  padding: 2rem;
+}
+
+.card .col-4 h2 {
+  margin-bottom: 2rem;
+}
+
+.flex-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex-list li {
+  line-height: 2rem;
 }
 
 /* Hero-social */
