@@ -4,7 +4,7 @@ html {
   font-family: "Montserrat";
 }
 
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -35,6 +35,7 @@ ol {
 
 .row {
   display: flex;
+  margin: 0;
 }
 
 .col-12 {
@@ -51,8 +52,29 @@ ol {
   color: #ff9614;
 }
 
+/* Hero */
+
+.recipe-category {
+  text-transform: uppercase;
+  color: var(--lightgrey);
+  font-size: 0.75rem;
+}
+
+.recipe-title {
+  color: var(--darkpurple);
+  font-size: 3rem;
+}
+
 /* UTILITIES */
 
 .text-shadow {
-  text-shadow: 1px 1px 1px rgb(110, 127, 127);
+  text-shadow: 1px 1px 1px var(--lightgrey);
+}
+
+/* CUSTOM PROPERTIES */
+
+:root {
+  --purple: #7c69a4;
+  --darkpurple: #4e3969;
+  --lightgrey: rgb(110, 127, 127);
 }
