@@ -27,6 +27,20 @@ ol {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.row {
+  display: flex;
+}
+
+.col-12 {
+  max-width: 100%;
+}
+
 /* Navbar */
 
 .nav-title {
