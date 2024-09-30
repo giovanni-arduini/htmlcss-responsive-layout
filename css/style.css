@@ -119,6 +119,10 @@ body {
   line-height: 2rem;
 }
 
+.pres-img {
+  width: 374px;
+}
+
 /* Hero-social */
 
 .hero-social {
@@ -137,6 +141,14 @@ body {
 
 .banner {
   max-width: 100%;
+}
+
+/* line */
+.line {
+  background-color: #ff9614;
+  border: 1px solid #ff9614;
+  height: 0.2rem;
+  width: 6rem;
 }
 /* UTILITIES */
 

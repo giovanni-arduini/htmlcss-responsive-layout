@@ -54,6 +54,14 @@
   .extended-title {
     display: none;
   }
+
+  .flex-list {
+    flex-direction: column;
+  }
+
+  .flex-list li {
+    width: 100%;
+  }
   .hero-social .btn {
     padding: 0.4rem 0.8rem;
   }
