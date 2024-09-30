@@ -161,6 +161,13 @@ body {
 
 .pres-img {
   float: left;
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+}
+
+.pres-text {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
 }
 /* UTILITIES */
 
