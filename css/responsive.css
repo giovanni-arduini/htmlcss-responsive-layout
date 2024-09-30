@@ -40,6 +40,15 @@
   .hero-social .btn span {
     display: none;
   }
+
+  .footer .col-12 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-infos {
+    text-align: center;
+  }
 }
 
 /* Mobile */

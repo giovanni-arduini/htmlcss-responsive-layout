@@ -145,6 +145,10 @@ body {
 }
 
 /* Presentation */
+
+.presentation {
+  margin-bottom: 5rem;
+}
 .pres-title {
   text-transform: uppercase;
   font-weight: 400;
@@ -169,6 +173,34 @@ body {
   line-height: 2.5rem;
   font-size: 1.2rem;
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--purple);
+  padding: 1.5rem 2rem;
+  color: white;
+  line-height: 2rem;
+}
+
+.footer .col-12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-item {
+  text-decoration: underline;
+}
+
+.menu-item a {
+  padding: 1rem 1rem;
+}
+
 /* UTILITIES */
 
 .text-shadow {
