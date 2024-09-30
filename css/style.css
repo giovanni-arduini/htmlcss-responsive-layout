@@ -19,3 +19,9 @@ ul,
 ol {
   list-style: none;
 }
+
+/* LAYOUT */
+
+.container-fluid {
+  max-width: 1920px;
+}
