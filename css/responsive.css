@@ -1,0 +1,16 @@
+/* Tablet */
+
+@media (max-width: 992px) {
+  .container-fluid {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    max-width: 100%;
+  }
+  .nav-title {
+    text-align: center;
+  }
+}
