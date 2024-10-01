@@ -139,6 +139,26 @@ body {
   text-transform: uppercase;
 }
 
+.fa-facebook {
+  color: rgb(60, 60, 241);
+}
+
+.fa-twitter {
+  color: rgb(57, 163, 234);
+}
+
+.fa-instagram {
+  color: rgb(192, 36, 163);
+}
+
+.fa-pinterest {
+  color: rgb(247, 53, 53);
+}
+
+.fa-youtube {
+  color: rgb(221, 6, 6);
+}
+
 .banner {
   max-width: 100%;
   margin-bottom: 2rem;
